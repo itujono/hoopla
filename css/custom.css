@@ -1,0 +1,352 @@
+
+
+/* Didesain sedemikian rupa sampe keren oleh Pak Tam 2017 
+
+/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+
+*/
+
+
+
+
+
+
+
+/* ini buat elemen-elemen khusus/spesifik */
+
+.button, .cws_button, .cws_button.small {
+    border-radius: 50px !important;
+}
+
+
+
+
+
+
+
+
+
+/* Home wak! Aseeek! Heheh */
+
+ul.products li {
+	width: 190px;
+	margin: 0 10px 30px;
+}
+
+.woocommerce .media_part, ul.product_list_widget li a img, .price_slider_wrapper .price_slider {
+    border-color: #7f2bef;
+}
+
+.button.add_to_cart_button, .added_to_cart.wc-forward, .woocommerce-pagination .page-numbers.current:after, .woocommerce .button, .woocommerce-page .button, .woocommerce .woocommerce-tabs .tabs li, ul.products li .media_part .rating_cont:before, ul.products li .media_part .rating_cont .button-shadow, .price_slider .ui-slider-range, .woocommerce-product-search:before {
+    background-color: #832cf7;
+}
+
+.news .media_part, .cws_ourteam_items .media_part, .post_info, .news .media_part, .cws_img_frame, img.image-type, .gallery-icon, .pricing_table_column, .pricing_table_column .top_section:after, .accordion_title, .accordion_content, .carousel_header .carousel_nav i, .cws_portfolio_items .item .media_part, .carousel_nav_panel .prev, .carousel_nav_panel .next, .cws_fa_wrapper:hover>a>i + .ring, a:hover>.cws_fa_wrapper>i:not(.alt) + .ring, .cws_button.alt:hover, .cws_oembed_wrapper, .bordered, .cws-widget .portfolio_item_thumb .pic, .select2-container .select2-choice .select2-arrow, .post_item .post_thumb_wrapp, #recentcomments>.recentcomments, .ce .map-border, .wp-playlist .mejs-container, .lang_bar>div:not(.lang_sel_list_vertical):not(.lang_sel_list_horizontal)>ul:before {
+    border-color: #832cf7;
+}
+
+.item .date:before, .item .date .month, .cws_button:hover, input[type='submit']:hover, .page_footer .cws_button, .page_footer .button, .page_footer input[type='submit'], .copyrights_area .cws_button, .copyrights_area input[type='submit'], blockquote, table thead th, .pagination .page_links>.page-numbers.current:before, .pagination .page_links>span:not(.dots):before, .gallery-icon a:before, .pricing_table_column .top_section, .pricing_table_column.active_table_column .btn_section>a, .pricing_table_column.active_table_column .separate, .pricing_table_column:hover .separate, .tabs .tab, .accordion_title .accordion_icon, .accordion_section.active .accordion_title, .cws_tweet .tweet-icon:before, .cws_progress_bar .progress, .cws_fa_wrapper .cws_fa:not(.alt), a:hover>.cws_fa_wrapper .cws_fa.alt, .cws_button.alt>span, .testimonial, .cws-widget .search-form:before, .owl-pagination .owl-page, #recentcomments>.recentcomments:before, .comments-area .comment_list .reply .comment-reply-link:hover, .comments-area .comment-respond .comment-form .submit, .cws_ourteam .cws_ourteam_items .social_links a, .news .media_part.only_link, .footer_wrapper_copyright, .mini-cart, .mini-cart .button, input[type="radio"]:checked:before, .pic .links a, .site_top_panel .cws_social_links:after, .copyrights_area .cws_social_links .cws_social_link, .copyrights_area .lang_bar ul ul, .cws_callout, .site_top_panel .site_top_panel_toggle:before, .site_top_panel .site_top_panel_toggle:after, .footer_container .woocommerce-product-search:before, .scroll_top {
+    background-color: #832cf7;
+}
+
+.ce_title, .comments-area .comments_title, .comments-area .comment-reply-title {
+    font-family: Patrick Hand;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #832cf7;
+}
+
+.ce_title {
+    font-size: 30px;
+}
+
+    .ce_title:after {
+        content: '';
+        display: block;
+        background-color: #fec20b;
+        width: 100%;
+        height: 6px;
+        border-radius: 3px;
+        margin-top: 8px;
+    }
+
+
+
+.cws_portfolio_items .item .title_part, .cws_portfolio_items .item .desc_part .categories a:hover, .cf label, .comments-area label, .cws_ourteam .cws_ourteam_items .title, .page_title h1, .testimonial .quote .quote_link:hover, .pagination a, .widget-title, a, .bread-crumbs .current, .cws-widget ul:not(.tweet_list) li>a:hover, .page_footer .cws-widget ul:not(.tweet_list) li>a:hover, .menu .menu-item.current-menu-ancestor>a, .menu .menu-item.current-menu-item>a, .cws-widget .current-cat>a, .cws-widget .current_page_item>a, .page_footer .cws-widget .current-cat>a, .page_footer .cws-widget .current_page_item>a, .select2-drop .select2-results .select2-highlighted, .cws-widget .parent_archive .widget_archive_opener, .cws-widget .has_children .opener {
+    color: #832cf7;
+}
+
+.page_content > .footer_image {
+    height: 250px;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.page_content > .footer_image {
+    background-image: url(../img/playground.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.woocommerce .button, .woocommerce-page .button {
+    background-color: #832cf7;
+}
+
+aside .cws-widget + .cws-widget {
+    margin-top: 55px;
+}
+
+aside .cws-widget {
+    margin-top: 55px;
+}
+
+aside .cws_widget:first-child {
+    margin-top: initial;
+}
+
+form.woocommerce-ordering {
+    margin-bottom: 15px;
+}
+
+    form.woocommerce-ordering .orderby {
+        width: 100%;
+    }
+
+
+/*////////////////////////*/
+
+.cws_callout {
+    background-color: #90d81c;
+    box-shadow: 5px 7px 19px rgba(0, 0, 0, 0.22);
+}
+
+    .cws_callout .button_section {
+        margin-bottom: -1.8em;
+    }
+
+/*/////////////////////////*/
+
+
+.footer_container .cws-widget .widget-title {
+    padding: 15px 0;
+    color: #fec20b;
+    margin-bottom: 20px;
+}
+
+.footer_container ul.product_list_widget li a img {
+    border-color: #90d81c !important;
+    margin-right: 8px;
+}
+
+    .footer_container ul.product_list_widget del span.amount {
+        color: #999;
+    }
+
+
+.copyrights_area .copyrights a {
+    color: #fff;
+}
+
+.copyrights_area .copyrights a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* ni buat bagian Cart heheh */
+
+span.quantity {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/* wah bagian Menu Nav nih wak heheheh */
+
+.main-nav-container {
+    text-align: center;
+}
+
+    .main-nav-container .main-menu>.menu-item>a {
+        display: inline-block;
+        padding: 10px 25px;
+        width: auto;
+        font-size: 18px;
+    }
+
+
+
+.main-menu .bees:after {
+    border-width: 22px 0px 32px 27px;
+}
+
+.main-menu .bees.bees-end:after {
+    border-width: 22px 27px 32px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ini buat bagian Checkout heheh */
+
+.woocommerce form.login {
+    width: 70%;
+    border: 10px solid rgb(214, 214, 214);
+    border-radius: 18px;
+    margin-top: 0;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-start;
+}
+
+    .woocommerce form.login p:first-child {
+        margin-bottom: 30px;
+    }
+
+
+
+form.checkout h3 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #fec20b;
+}
+
+.cws_callout .callout_text p {
+    text-indent: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+    .cws_callout .callout_title .bees.bees-end>span {
+        -webkit-transform: rotateY(180deg) translateX(125%);
+        -moz-transform: rotateY(180deg) translateX(125%);
+        -ms-transform: rotateY(180deg) translateX(125%);
+        transform: rotateY(180deg) translateX(125%);
+        transition: top .3s cubic-bezier(0.7, 0.2, 0, 1.52);
+        -webkit-transition: top .3s cubic-bezier(0.7, 0.2, 0, 1.52);
+        -moz-transition: top .3s cubic-bezier(0.7, 0.2, 0, 1.52);
+    }
+
+        .cws_callout .callout_title .bees>span {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background: url(../img/bees.png) left center;
+            animation: play .1s steps(3) infinite;
+            -webkit-animation: play .1s steps(3) infinite;
+        }
+
+.grid_col:hover .bees span {
+    top: -20px;
+}
+
+
+
+
+
+
+
+/* wah hebat udah ke bagian Contact aja heheh */
+
+#contact .page_content main {
+    margin-bottom: 60px;
+}
+
+#contact .page_content>main .grid_row {
+    width: 990px;
+}
+
+
+
+
+
+
+/* nah kalo ini katanya udah About Us loh heheh */
+
+#about-us .page_content>main .grid_row {
+    width: 990px;
+}
+
+#about-us .why-us p > strong {
+    color: #832cf7;
+}
+
+#about-us .ce_title {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/* wah ini malah ke Cart page heheh */
+
+#cart .page_content main {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* oppps ke Checkout udah! Wow! */
+
+#checkout .page_content .grid_row {
+    width: 990px;
+    display: block;
+    margin: 0 auto;
+}
+
+#checkout div.woocommerce form.login {
+    padding: 20px;
+}
+
+#checkout .woocommerce .col2-set>div {
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+
+#checkout .page_content main {
+    margin-bottom: 60px;
+}
