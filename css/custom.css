@@ -350,3 +350,24 @@ form.checkout h3 {
 #checkout .page_content main {
     margin-bottom: 60px;
 }
+
+
+
+
+
+
+/*wah FAQ wak! */
+
+.accordion_section .accordion_content > div {
+    float: left;
+    width: 67%;
+}
+
+    .accordion_section .accordion_content > div > img {
+        width: 100%;
+    }
+
+    .accordion_section .accordion_content > div:first-child {
+        width: 30%;
+        margin-right: 15px;
+    }
