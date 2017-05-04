@@ -20,7 +20,7 @@
     <meta name="msapplication-TileImage" content="img/cropped-favicon-270x270.png">
 </head>
 
-<body class="page wide wave-style">
+<body class="page woocommerce-account woocommerce-page wide wave-style">
     <div class="page">
         <!-- top panel -->
         <div class='site_top_panel wave slider'>
@@ -29,7 +29,7 @@
                 <canvas class='top_half_sin' data-bg-color='#ffffff' data-line-color='#ffffff'></canvas>
             </div>
             <!-- / canvas -->
-            <!-- top panel main container -->
+            <!-- top panel main content -->
             <div class='container'>
                 <div class='row_text_search'>
                     <div id='top_panel_text'><a href="tel:1-800-123-45678"><i class="fa fa-phone-square"></i> 1-800-123-45678 </a>;
@@ -56,13 +56,13 @@
                             <ul class="cart_list product_list_widget">
                                 <li>
                                     <a href="#" class="remove" title="Remove this item">×</a>
-                                    <a href="shop-single-product.html">
+                                    <a href="product-detail.html">
                                         <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="poster_2_up">Bag&nbsp; </a>
                                     <span class="quantity">1 × <span class="amount">Rp 12.00</span></span>
                                 </li>
                                 <li>
                                     <a href="#" class="remove" title="Remove this item">×</a>
-                                    <a href="shop-single-product.html">
+                                    <a href="product-detail.html">
                                         <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="T_7_front">Basket&nbsp; </a>
                                     <span class="quantity">1 × <span class="amount">Rp 18.00</span></span>
                                 </li>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="site_top_panel_toggle"></div>
             </div>
-            <!-- / top panel main container -->
+            <!-- / top panel main content -->
         </div>
         <!-- / top panel -->
         <!-- header container -->
@@ -142,7 +142,7 @@
                                     </li>
                                     <!-- / menu item -->
                                     <!-- menu item -->
-                                    <li class="menu-item menu-item-has-children"><a href="features-benefits.html">Features<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                    <li class="menu-item current-menu-ancestor current_page_ancestor menu-item-has-children"><a href="features-benefits.html">Features<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
                                         <span class='button_open'></span>
                                         <ul class="sub-menu">
                                             <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
@@ -150,7 +150,7 @@
                                             <li class="menu-item"><a href="features-benefits.html">Template Benefits</a></li>
                                             <li class="menu-item"><a href="features-shop-ready.html">Shop Ready</a></li>
                                             <li class="menu-item"><a href="features-content-elements.html">Content Elements</a></li>
-                                            <li class="menu-item menu-item-has-children"><a href="features-shop.html">Shop</a>
+                                            <li class="menu-item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="features-shop.html">Shop</a>
                                                 <span class='button_open'></span>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
@@ -158,7 +158,7 @@
                                                     <li class="menu-item"><a href="features-shop.html">Shop</a></li>
                                                     <li class="menu-item"><a href="features-shop-cart.html">Cart</a></li>
                                                     <li class="menu-item"><a href="features-shop-checkout.html">Checkout</a></li>
-                                                    <li class="menu-item"><a href="features-my-account.html">My Account</a></li>
+                                                    <li class="menu-item current-menu-item page_item current_page_item"><a href="features-my-account.html">My Account</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -199,19 +199,19 @@
                                     </li>
                                     <!-- / menu item -->
                                     <!-- menu item -->
-                                    <li class="menu-item current-menu-ancestor current_page_ancestor menu-item-has-children right"><a href="blog-right-sidebar.html">Blog<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                    <li class="menu-item menu-item-has-children right"><a href="blog-right-sidebar.html">Blog<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
                                         <span class='button_open'></span>
                                         <ul class="sub-menu">
                                             <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
                                             </li>
-                                            <li class="menu-item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="blog-one-column.html">Columns</a>
+                                            <li class="menu-item menu-item-has-children"><a href="blog-one-column.html">Columns</a>
                                                 <span class='button_open'></span>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
                                                     </li>
                                                     <li class="menu-item"><a href="blog-one-column.html">One Column</a></li>
                                                     <li class="menu-item"><a href="blog-two-columns.html">Two Columns</a></li>
-                                                    <li class="menu-item current-menu-item page_item current_page_item"><a href="blog-three-columns.html">Three Columns</a></li>
+                                                    <li class="menu-item"><a href="blog-three-columns.html">Three Columns</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item menu-item-has-children"><a href="blog-right-sidebar.html">With Sidebar</a>
@@ -246,314 +246,197 @@
                                 </ul>
                             </nav>
                         </div>
+                        <!-- / menu -->
                     </div>
                 </div>
             </header>
             <!-- #masthead -->
         </div>
-        <!-- breadcrumbs -->
+        <!-- / header container -->
+        <!-- bread crumbs -->
         <section class='page_title wave'>
             <div class='container'>
                 <div class='title'>
-                    <h1>Three Columns</h1></div>
-                <nav class="bread-crumbs"><a href="index.html" >Home</a><i class="delimiter fa fa-chevron-right"></i><span class="current">Three Columns</span></nav>
+                    <h1>Shop</h1></div>
+                <nav class="bread-crumbs"><a href="index.html" >Home</a><i class="delimiter fa fa-chevron-right"></i><span class="current">My Account</span></nav>
                 <!-- .breadcrumbs -->
             </div>
             <canvas class='breadcrumbs' data-bg-color='#f8f2dc' data-line-color='#f9e8b2'></canvas>
         </section>
-        <!-- / breadcrumbs -->
+        <!-- / bread crumbs -->
         <!-- main container -->
         <div id="main" class="site-main">
-            <div class="page_content">
-                <!-- patern container / -->
+            <div class="page_content single_sidebar">
+                <!-- pattern contaier -->
                 <div class='left-pattern pattern pattern-2'></div>
-                <!-- main content -->
-                <main>
-                    <div class="grid_row">
-                        <!-- blog items -->
-                        <section class="news news-pinterest">
-                            <div class="cws_wrapper">
-                                <div class="grid grid-3 isotope">
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <div class='pic'><img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                    <div class='hover-effect'></div>
-                                                    <div class='links_popup animate'>
-                                                        <div class='link_cont'>
-                                                            <div class='link'>
-                                                                <a class='fancy' href='http://placehold.it/1000x1000'><i class='fa fa-camera'></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                            <div class="link">
-                                                                <a href="blog-post.html"><i class="fa fa-share"></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="link-toggle-button">
-                                                            <i class="fa fa-plus link-toggle-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                <!-- content container -->
+                <div class='container'>
+                    <!-- sidebar -->
+                    <aside class='sb_right'>
+                        <!-- widget search -->
+                        <div class="cws-widget">
+                            <form method="get" class="search-form" action="#">
+                                <label>
+                                    <span class="screen-reader-text">Search for:</span>
+                                    <input type="text" class="search-field vova" value="" name="s" title="Search for:" />
+                                </label>
+                                <input type="submit" class="search-submit" value="Search" />
+                                <input type='hidden' name='lang' value='en' />
+                            </form>
+                        </div>
+                        <!-- / widget search -->
+                        <!-- widget sidebar menu -->
+                        <div class="cws-widget">
+                            <div class="widget-title">Sidebar Menu</div>
+                            <div class="menu-main-menu-container">
+                                <ul id="menu-main-menu-1" class="menu">
+                                    <li class="menu-item menu-item-has-children"><a href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="index.html">Learn&#038;Play</a></li>
+                                            <li class="menu-item"><a href="babysitter.html">Babysitter</a></li>
+                                            <li class="menu-item"><a href="store.html">Store</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item current-menu-ancestor current_page_ancestor menu-item-has-children"><a href="features-benefits.html">Features</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="features-benefits.html">Template Benefits</a></li>
+                                            <li class="menu-item"><a href="features-shop-ready.html">Shop Ready</a></li>
+                                            <li class="menu-item"><a href="features-content-elements.html">Content Elements</a></li>
+                                            <li class="menu-item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="features-shop.html">Shop</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="features-shop.html">Shop</a></li>
+                                                    <li class="menu-item"><a href="features-shop-cart.html">Cart</a></li>
+                                                    <li class="menu-item"><a href="features-shop-checkout.html">Checkout</a></li>
+                                                    <li class="menu-item current-menu-item page_item current_page_item"><a href="features-my-account.html">My Account</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a href="page-about-us.html">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="page-about-us.html">About Us</a></li>
+                                            <li class="menu-item"><a href="page-services-2.html">Services</a></li>
+                                            <li class="menu-item"><a href="page-our-process.html">Our Process</a></li>
+                                            <li class="menu-item"><a href="page-our-team.html">Our Team</a></li>
+                                            <li class="menu-item"><a href="page-right-sidebar.html">Right Sidebar</a></li>
+                                            <li class="menu-item"><a href="page-left-sidebar.html">Left Sidebar</a></li>
+                                            <li class="menu-item"><a href="page-double-sidebars.html">Double Sidebars</a></li>
+                                            <li class="menu-item"><a href="page-full-width.html">Full Width</a></li>
+                                            <li class="menu-item"><a href="page-faq.html">FAQ</a></li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="page-404.html">404 Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a href="portfolio-four-columns.html">Portfolio</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="portfolio-one-column.html">One Column</a></li>
+                                            <li class="menu-item"><a href="portfolio-two-columns.html">Two Columns</a></li>
+                                            <li class="menu-item"><a href="portfolio-three-columns.html">Three Columns</a></li>
+                                            <li class="menu-item"><a href="portfolio-four-columns.html">Four Columns</a></li>
+                                            <li class="menu-item"><a href="portfolio-filtered.html">With Sidebar</a></li>
+                                            <li class="menu-item"><a href="portfolio-gallery.html">Gallery</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a href="blog-right-sidebar.html">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item menu-item-has-children"><a href="blog-one-column.html">Columns</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="blog-one-column.html">One Column</a></li>
+                                                    <li class="menu-item"><a href="blog-two-columns.html">Two Columns</a></li>
+                                                    <li class="menu-item"><a href="blog-three-columns.html">Three Columns</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-has-children"><a href="blog-right-sidebar.html">With Sidebar</a>
+                                                <ul class="sub-menu">
+                                                    <li class="menu-item"><a href="blog-left-sidebar.html">Left Sidebar</a></li>
+                                                    <li class="menu-item"><a href="blog-right-sidebar.html">Right Sidebar</a></li>
+                                                    <li class="menu-item"><a href="blog-double-sidebars.html">Double Sidebars</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item"><a href="blog-larg-images.html">Large Images</a></li>
+                                            <li class="menu-item"><a href="blog-medium-images.html">Medium Images</a></li>
+                                            <li class="menu-item"><a href="blog-small-images.html">Small Images</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item"><a href="contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- / widget sidebar menu -->
+                        <!-- twitter  -->
+                        <div class="cws-widget">
+                            <div class="widget-title">Twitter feed</div>
+                            <div class='cws_tweets tweets_carousel paginated'>
+                                <div class='twitter-carousel cws_tweet'></div>
+                            </div>
+                        </div>
+                        <!-- / twitter -->
+                    </aside>
+                    <!-- / sidebar -->
+                    <!--  main -->
+                    <main>
+                        <div class='grid_row clearfix'>
+                            <div class="woocommerce">
+                                <div class="col2-set" id="customer_login">
+                                    <!-- login section -->
+                                    <div class="col-1">
+                                        <h2>Login</h2>
+                                        <form method="post" class="login">
+                                            <p class="form-row form-row-wide">
+                                                <label for="username">Username or email address <span class="required">*</span></label>
+                                                <input type="text" class="input-text" name="username" id="username" value="" />
+                                            </p>
+                                            <p class="form-row form-row-wide">
+                                                <label for="password">Password <span class="required">*</span></label>
+                                                <input class="input-text" type="password" name="password" id="password" />
+                                            </p>
+                                            <p class="form-row">
+                                                <input type="hidden" name="_wpnonce" value="07f10daba0" />
+                                                <input type="hidden" name="_wp_http_referer" value="/my-account/" />
+                                                <input type="submit" class="button" name="login" value="Login" />
+                                                <label for="rememberme" class="inline">
+                                                    <input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me </label>
+                                            </p>
+                                            <p class="lost_password">
+                                                <a href="#">Lost your password?</a>
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <!-- login section -->
+                                    <!-- registr section -->
+                                    <div class="col-2">
+                                        <h2>Register</h2>
+                                        <form method="post" class="register">
+                                            <p class="form-row form-row-wide">
+                                                <label for="reg_email">Email address <span class="required">*</span></label>
+                                                <input type="email" class="input-text" name="email" id="reg_email" value="" />
+                                            </p>
+                                            <p class="form-row form-row-wide">
+                                                <label for="reg_password">Password <span class="required">*</span></label>
+                                                <input type="password" class="input-text" name="password" id="reg_password" />
+                                            </p>
+                                            <!-- Spam Trap -->
+                                            <div style="left: -999em; position: absolute;">
+                                                <label for="trap">Anti-spam</label>
+                                                <input type="text" name="email_2" id="trap" tabindex="-1" />
                                             </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>24</span><span class='month' title='March'><span>Mar</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Morbi iaculis</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Quisque in nulla ut metus cursus commodo non vitae nibh. Curabitur euismod sem vel velit blandit  <a href="blog-post.html#more-1939" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Image posts</a><span class="v_sep"></span><a href="#" rel="category tag">Pinterest</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <div class='pic'><img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                    <div class='hover-effect'></div>
-                                                    <div class='links_popup animate'>
-                                                        <div class='link_cont'>
-                                                            <div class='link'>
-                                                                <a class='fancy' href='http://placehold.it/1920x1024'><i class='fa fa-camera'></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                            <div class="link">
-                                                                <a href="blog-post.html"><i class="fa fa-share"></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="link-toggle-button">
-                                                            <i class="fa fa-plus link-toggle-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>24</span><span class='month' title='March'><span>Mar</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Praesent sagittis</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Maecenas vel elit at dui condimentum lobortis in sed eros. Morbi iaculis euismod felis in pulvinar. <a href="blog-post.html#more-1935" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Image posts</a><span class="v_sep"></span><a href="#" rel="category tag">Pinterest</a><span class="v_sep"></span><a href="#" rel="category tag">Uncategorized</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <div class='pic'><img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                    <div class='hover-effect'></div>
-                                                    <div class='links_popup animate'>
-                                                        <div class='link_cont'>
-                                                            <div class='link'>
-                                                                <a class='fancy' href='http://placehold.it/1000x1000'><i class='fa fa-camera'></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                            <div class="link">
-                                                                <a href="blog-post.html"><i class="fa fa-share"></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="link-toggle-button">
-                                                            <i class="fa fa-plus link-toggle-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>22</span><span class='month' title='March'><span>Mar</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Morbi iaculis euismod</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Aenean molestie faucibus fringilla. Nam at justo eget nulla dictum vehicula. Nulla ac mi adipiscing, <a href="blog-post.html#more-1791" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Image posts</a><span class="v_sep"></span><a href="#" rel="category tag">Pinterest</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <a class='carousel_nav prev'>
-                                                    <span></span>
-                                                </a>
-                                                <a class='carousel_nav next'>
-                                                    <span></span>
-                                                </a>
-                                                <div class='gallery_post_carousel'>
-                                                    <div class='pic'>
-                                                        <img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                        <div class="hover-effect"></div>
-                                                        <div class='links_popup'>
-                                                            <div class='link_cont'>
-                                                                <div class='link'>
-                                                                    <a href="http://placehold.it/1000x1000" data-fancybox-group='cws-gallery-564eeb3a0515c' class="fancy fancy_gallery" data-thumbnail='http://placehold.it/1000x1000'><i class="fa fa-camera"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class='pic'>
-                                                        <img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                        <div class="hover-effect"></div>
-                                                        <div class='links_popup'>
-                                                            <div class='link_cont'>
-                                                                <div class='link'>
-                                                                    <a href="http://placehold.it/1000x1000" data-fancybox-group='cws-gallery-564eeb3a0515c' class="fancy fancy_gallery" data-thumbnail='http://placehold.it/1000x1000'><i class="fa fa-camera"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class='pic'>
-                                                        <img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                        <div class="hover-effect"></div>
-                                                        <div class='links_popup'>
-                                                            <div class='link_cont'>
-                                                                <div class='link'>
-                                                                    <a href="http://placehold.it/1000x1000" data-fancybox-group='cws-gallery-564eeb3a0515c' class="fancy fancy_gallery" data-thumbnail='http://placehold.it/1000x1000'><i class="fa fa-camera"></i></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>20</span><span class='month' title='March'><span>Mar</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Gallery post</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Quisque in nulla ut metus cursus commodo non vitae nibh. Curabitur euismod sem vel <a href="blog-post.html#more-1825" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Pinterest</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <div class='pic'><img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                    <div class='hover-effect'></div>
-                                                    <div class='links_popup animate'>
-                                                        <div class='link_cont'>
-                                                            <div class='link'>
-                                                                <a class='fancy' href='http://placehold.it/1000x1000'><i class='fa fa-camera'></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                            <div class="link">
-                                                                <a href="blog-post.html"><i class="fa fa-share"></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="link-toggle-button">
-                                                            <i class="fa fa-plus link-toggle-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>28</span><span class='month' title='February'><span>Feb</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Ut wisi enim</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Aenean molestie faucibus fringilla. Nam at justo eget nulla dictum vehicula. Nulla ac mi adipiscing, <a href="blog-post.html#more-1826" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Pinterest</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
-                                    <!-- blog item -->
-                                    <article class='item 3'>
-                                        <div class='media_info_wrapper'>
-                                            <div class="media_part">
-                                                <div class='pic'><img src='http://placehold.it/348x348' data-at2x='http://placehold.it/348x348' alt />
-                                                    <div class='hover-effect'></div>
-                                                    <div class='links_popup animate'>
-                                                        <div class='link_cont'>
-                                                            <div class='link'>
-                                                                <a class='fancy' href='http://placehold.it/1000x1000'><i class='fa fa-camera'></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                            <div class="link">
-                                                                <a href="blog-post.html"><i class="fa fa-share"></i></a>
-                                                                <div class="link-item-bounce"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="link-toggle-button">
-                                                            <i class="fa fa-plus link-toggle-icon"></i>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="date def_style">
-                                            <div class='date-cont'><span class='day'>25</span><span class='month' title='February'><span>Feb</span></span><span class='year'>2015</span><i class='springs'></i></div>
-                                        </div>
-                                        <div class="post_info_header">
-                                            <h3 class="ce_title"><a href="blog-post.html">Image post</a></h3> </div>
-                                        <div class='post_content'>
-                                            <p>Quisque in<strong> nulla ut metus</strong> cursus commodo non vitae nibh. Curabitur euismod sem vel velit <a href="blog-post.html#more-1814" class="more-link">[&#8230;]</a></p>
-                                        </div>
-                                        <div class="post_info">
-                                            <div class='post_categories'><i class='fa fa-bookmark'></i><a href="#" rel="category tag">Image posts</a><span class="v_sep"></span><a href="#" rel="category tag">Pinterest</a></div>
-                                        </div>
-                                        <div class='button_cont'><a href='blog-post.html' class='cws_button small'>Read More</a></div>
-                                        <div class='separator-box'>
-                                            <canvas class='separator' width='1170' data-line-color='#f9e8b2'></canvas>
-                                        </div>
-                                    </article>
-                                    <!-- / blog item -->
+                                            <p class="form-row">
+                                                <input type="hidden" name="_wpnonce" value="d0a2aebf3a" />
+                                                <input type="hidden" name="_wp_http_referer" value="/my-account/" />
+                                                <input type="submit" class="button" name="register" value="Register" />
+                                            </p>
+                                        </form>
+                                    </div>
+                                    <!-- / registr section -->
                                 </div>
                             </div>
-                        </section>
-                        <!-- / blog items -->
-                    </div>
-                </main>
-                <!-- / main content -->
+                        </div>
+                    </main>
+                </div>
                 <!-- pattern container / -->
                 <div class='right-pattern pattern pattern-2'></div>
-                <!-- footer image / -->
-                <div class="footer_image"></div>
+                <!-- footer image container / -->
+                <div class="footer_image">
+                </div>
             </div>
             <!-- svg filter -->
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" style='display:none;'>
@@ -575,7 +458,7 @@
                 <canvas class='half_sin' data-bg-color='23,108,129' data-line-color='23,108,129'></canvas>
             </div>
             <!-- / canvas -->
-            <!-- footer content -->
+            <!-- footer main content -->
             <footer class='page_footer'>
                 <div class='container'>
                     <div class='footer_container'>
@@ -625,7 +508,7 @@
                                     <!-- / post item -->
                                 </div>
                                 <div class='item'>
-                                    <!-- post item -->
+                                    <!-- psot item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
                                             <div class='post_title'><a href='blog-post.html'>Gallery post</a></div>
@@ -677,7 +560,7 @@
                             <div class="widget-title">Gallery</div>
                             <div class='cws_textwidget_content'>
                                 <div class='text'>
-                                    <div id='gallery-1' class='gallery galleryid-36 gallery-columns-3 gallery-size-thumbnail'>
+                                    <div id='gallery-1' class='gallery galleryid-4617 gallery-columns-3 gallery-size-thumbnail'>
                                         <!-- gallery item -->
                                         <div class='gallery-item'>
                                             <div class='gallery-icon landscape'>
@@ -738,13 +621,13 @@
                                                 <img width="1" height="1" src="http://placehold.it/150x150" class="attachment-thumbnail" alt="blog_3_col_3" />
                                             </div>
                                         </div>
-                                        <!-- / gallery item -->
+                                        <!-- /  gallery item -->
                                         <br style="clear: both" />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- / widget gallery  -->
+                        <!-- / widget gallery -->
                         <!-- contact form -->
                         <div class="cws-widget">
                             <div class="widget-title">Shoot a Message</div>
@@ -767,12 +650,13 @@
                     </div>
                 </div>
             </footer>
-            <!-- footer content -->
             <!-- copyright -->
             <div class='copyrights_area'>
+                <!-- canvas -->
                 <div class='half_sin_wrapper'>
                     <canvas class='footer_half_sin' data-bg-color='14,64,77' data-line-color='14,64,77'></canvas>
                 </div>
+                <!-- / canvas -->
                 <div class='container'>
                     <div class='copyrights_container'>
                         <div class='copyrights'>Copyrights ©2016: Kiddy - Children HTML Template</div>
@@ -802,7 +686,6 @@
                     </div>
                 </div>
             </div>
-            <!-- / copyright -->
         </div>
     </div>
     <!-- #page -->
@@ -810,7 +693,7 @@
     <div id="lang_sel_footer">
         <ul>
             <li>
-                <a href="blog-three-columns.html" class="lang_sel_sel"><img src="img/en.png" alt="English" class="iclflag" title="English" />&nbsp;English</a>
+                <a href="features-my-account.html" class="lang_sel_sel"><img src="img/en.png" alt="English" class="iclflag" title="English" />&nbsp;English</a>
             </li>
             <li>
                 <a href="#"><img src="img/fr.png" alt="Français" class="iclflag" title="Français" />&nbsp;Français</a>

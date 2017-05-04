@@ -371,3 +371,11 @@ form.checkout h3 {
         width: 30%;
         margin-right: 15px;
     }
+
+#faq .ce_title {
+    font-size: 50px;
+}
+
+#faq .page_content main {
+    margin-bottom: 60px;
+}
