@@ -358,6 +358,10 @@ form.checkout h3 {
     background-color: #eee;
 }
 
+#checkout div.woocommerce form p, .woocommerce-tabs form p {
+    margin-bottom: 25px;
+}
+
 
 
 
