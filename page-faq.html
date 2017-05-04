@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="img/cropped-favicon-192x192.png" />
-    <title>Kiddy - Children HTML Template</title>
+    <title>Hoopla! - Perlengkapan Baby Premium untuk Kamu Sewa</title>
+    <link rel='stylesheet' href='revslider/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/font-awesome.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/jquery.fancybox.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/select2.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/main.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/shop.css' type='text/css' media='all' />
-    <script type='text/javascript' src='js/jquery.js'></script>
-    <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
+    <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel="icon" href="img/cropped-favicon-32x32.png" sizes="32x32" />
     <link rel="icon" href="img/cropped-favicon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="img/cropped-favicon-180x180.png">
@@ -21,21 +21,22 @@
 </head>
 
 <body class="page wide wave-style">
-    <div class="page">
-        <!-- top panel -->
+    <div class="page" id="faq">
+
         <div class='site_top_panel wave slider'>
             <div class='top_half_sin_wrapper'>
                 <canvas class='top_half_sin' data-bg-color='#ffffff' data-line-color='#ffffff'></canvas>
             </div>
             <div class='container'>
                 <div class='row_text_search'>
-                    <div id='top_panel_text'><a href="tel:1-800-123-45678"><i class="fa fa-phone-square"></i> 1-800-123-45678 </a>;
-                        <a href="mailto:mail@mail.com"> <i class="fa fa-envelope-o"></i>mail@mail.com</a>
+                    <div id='top_panel_text'>
+                        <a href="tel:0778-325253"><i class="fa fa-phone-square"></i> 0778-348783809</a>
+                        <a href="mailto:rivayudha@msn.com"> <i class="fa fa-envelope-o"></i>rivayudha@msn.com</a>
                     </div>
                     <form method="get" class="search-form" action="#">
                         <label>
-                            <span class="screen-reader-text">Search for:</span>
-                            <input type="text" class="search-field vova" value="" name="s" title="Search for:" />
+                            <span class="screen-reader-text">Cari:</span>
+                            <input type="text" class="search-field vova" placeholder="Cari apa saja..." value="" name="s" title="Cari apa saja" />
                         </label>
                         <input type="submit" class="search-submit" value="Search" />
                         <input type='hidden' name='lang' value='en' />
@@ -54,25 +55,25 @@
                                 <li>
                                     <a href="#" class="remove" title="Remove this item">×</a>
                                     <a href="shop-single-product.html">
-                                        <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="poster_2_up">Bag&nbsp; </a>
-                                    <span class="quantity">1 × <span class="amount">Rp 12.00</span></span>
+                                        <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="poster_2_up">Kunci Duplikat&nbsp; </a>
+                                    <span class="quantity">1 × <span class="amount">Rp 12.000</span></span>
                                 </li>
                                 <li>
                                     <a href="#" class="remove" title="Remove this item">×</a>
                                     <a href="shop-single-product.html">
-                                        <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="T_7_front">Basket&nbsp; </a>
-                                    <span class="quantity">1 × <span class="amount">Rp 18.00</span></span>
+                                        <img width="180" height="180" src="http://placehold.it/58x58" class="attachment-shop_thumbnail" alt="T_7_front">Bola Bekel&nbsp; </a>
+                                    <span class="quantity">1 × <span class="amount">Rp 18.000</span></span>
                                 </li>
                             </ul>
                             <!-- end product list -->
-                            <p class="total"><strong>Subtotal:</strong> <span class="amount">Rp 30.00</span></p>
+                            <p class="total"><strong>Subtotal:</strong> <span class="amount">Rp 30.000</span></p>
                             <p class="buttons">
                                 <a href="features-shop-cart.html" class="button wc-forward">View Cart</a>
                                 <a href="features-shop-checkout.html" class="button checkout wc-forward">Checkout</a>
                             </p>
                         </div>
                     </div>
-                    <div class="lang_bar">
+            <!--    <div class="lang_bar">
                         <div>
                             <ul>
                                 <li>
@@ -89,17 +90,15 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="site_top_panel_toggle"></div>
             </div>
-        </div>
-        <!-- / top panel -->
-        <!-- header container -->
+        </div> <!-- kelar Site Top Panel -->
+
         <div class='header_cont'>
             <div class='header_mask'>
                 <div class='header_pattern'></div>
-                <div class='header_img'></div>
             </div>
             <header class='site_header logo-in-menu' data-menu-after="3">
                 <div class="header_box">
@@ -117,7 +116,7 @@
                                 </div>
                                 <ul id="menu-main-menu" class="main-menu menu-bees">
                                     <!-- menu item -->
-                                    <li class="menu-item menu-item-has-children bees-start">
+                                    <li class="menu-item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor bees-start">
                                         <a href="index.html">
                                             <div class="bees bees-start"><span></span>
                                                 <div class="line-one"></div>
@@ -128,105 +127,49 @@
                                             </div>
                                         </a>
                                         <span class='button_open'></span>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
-                                            </li>
-                                            <li class="menu-item"><a href="index.html">Learn&#038;Play</a></li>
-                                            <li class="menu-item"><a href="babysitter.html">Babysitter</a></li>
-                                            <li class="menu-item"><a href="store.html">Store</a></li>
-                                        </ul>
                                     </li>
-                                    <!-- / menu item -->
-                                    <!-- menu item -->
-                                    <li class="menu-item menu-item-has-children"><a href="features-benefits.html">Features<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="features-benefits.html">
+                                            Products
+                                            <div class="canvas_wrapper">
+                                                <canvas class="menu_dashed"></canvas>
+                                            </div>
+                                        </a>
                                         <span class='button_open'></span>
                                         <ul class="sub-menu">
                                             <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
                                             </li>
-                                            <li class="menu-item"><a href="features-benefits.html">Template Benefits</a></li>
-                                            <li class="menu-item"><a href="features-shop-ready.html">Shop Ready</a></li>
-                                            <li class="menu-item"><a href="features-content-elements.html">Content Elements</a></li>
-                                            <li class="menu-item menu-item-has-children"><a href="features-shop.html">Shop</a>
-                                                <span class='button_open'></span>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
-                                                    </li>
-                                                    <li class="menu-item"><a href="features-shop.html">Shop</a></li>
-                                                    <li class="menu-item"><a href="features-shop-cart.html">Cart</a></li>
-                                                    <li class="menu-item"><a href="features-shop-checkout.html">Checkout</a></li>
-                                                    <li class="menu-item"><a href="features-my-account.html">My Account</a></li>
-                                                </ul>
-                                            </li>
+                                            <li class="menu-item"><a href="features-benefits.html">Newborn</a></li>
+                                            <li class="menu-item"><a href="features-shop-ready.html">Cewe</a></li>
+                                            <li class="menu-item"><a href="features-content-elements.html">Cowo</a></li>
                                         </ul>
                                     </li>
-                                    <!-- / menu item -->
-                                    <!-- menu item -->
-                                    <li class="menu-item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a href="page-about-us.html">Pages<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+
+                                    <li class="menu-item"><a href="page-about-us.html">About Us<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+                                    </li>
+
+                                    <li class="menu-item menu-item-has-children right"><a href="portfolio-four-columns.html">T &amp; C<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
                                         <span class='button_open'></span>
                                         <ul class="sub-menu">
                                             <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
                                             </li>
-                                            <li class="menu-item"><a href="page-about-us.html">About Us</a></li>
-                                            <li class="menu-item"><a href="page-services-2.html">Services</a></li>
-                                            <li class="menu-item"><a href="page-our-process.html">Our Process</a></li>
-                                            <li class="menu-item"><a href="page-our-team.html">Our Team</a></li>
-                                            <li class="menu-item"><a href="page-right-sidebar.html">Right Sidebar</a></li>
-                                            <li class="menu-item"><a href="page-left-sidebar.html">Left Sidebar</a></li>
-                                            <li class="menu-item"><a href="page-double-sidebars.html">Double Sidebars</a></li>
-                                            <li class="menu-item"><a href="page-full-width.html">Full Width</a></li>
-                                            <li class="menu-item current-menu-item page_item current_page_item"><a href="page-faq.html">FAQ</a></li>
-                                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="page-404.html">404 Page</a></li>
+                                            <li class="menu-item"><a href="portfolio-one-column.html">F.A.Q</a></li>
+                                            <li class="menu-item"><a href="portfolio-two-columns.html">Privacy Policy</a></li>
                                         </ul>
                                     </li>
-                                    <!-- / menu item -->
-                                    <!-- menu item -->
-                                    <li class="menu-item menu-item-has-children right"><a href="portfolio-four-columns.html">Portfolio<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
+
+                                    <li class="menu-item menu-item-has-children right"><a href="blog-right-sidebar.html">Trivia<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
                                         <span class='button_open'></span>
                                         <ul class="sub-menu">
                                             <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
                                             </li>
-                                            <li class="menu-item"><a href="portfolio-one-column.html">One Column</a></li>
-                                            <li class="menu-item"><a href="portfolio-two-columns.html">Two Columns</a></li>
-                                            <li class="menu-item"><a href="portfolio-three-columns.html">Three Columns</a></li>
-                                            <li class="menu-item"><a href="portfolio-four-columns.html">Four Columns</a></li>
-                                            <li class="menu-item"><a href="portfolio-filtered.html">With Sidebar</a></li>
-                                            <li class="menu-item"><a href="portfolio-gallery.html">Gallery</a></li>
+                                            <li class="menu-item"><a href="blog-larg-images.html">Tips &amp; Tricks</a></li>
+                                            <li class="menu-item"><a href="blog-medium-images.html">Parenting Tips</a></li>
+                                            <li class="menu-item"><a href="blog-small-images.html">How-tos</a></li>
                                         </ul>
                                     </li>
-                                    <!-- / menu item -->
-                                    <!-- menu item -->
-                                    <li class="menu-item menu-item-has-children right"><a href="blog-right-sidebar.html">Blog<div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div></a>
-                                        <span class='button_open'></span>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children"><a href="blog-one-column.html">Columns</a>
-                                                <span class='button_open'></span>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
-                                                    </li>
-                                                    <li class="menu-item"><a href="blog-one-column.html">One Column</a></li>
-                                                    <li class="menu-item"><a href="blog-two-columns.html">Two Columns</a></li>
-                                                    <li class="menu-item"><a href="blog-three-columns.html">Three Columns</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children"><a href="blog-right-sidebar.html">With Sidebar</a>
-                                                <span class='button_open'></span>
-                                                <ul class="sub-menu">
-                                                    <li class="menu-item back"><a href="#"><em>←</em>&nbsp;BACK</a>
-                                                    </li>
-                                                    <li class="menu-item"><a href="blog-left-sidebar.html">Left Sidebar</a></li>
-                                                    <li class="menu-item"><a href="blog-right-sidebar.html">Right Sidebar</a></li>
-                                                    <li class="menu-item"><a href="blog-double-sidebars.html">Double Sidebars</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item"><a href="blog-larg-images.html">Large Images</a></li>
-                                            <li class="menu-item"><a href="blog-medium-images.html">Medium Images</a></li>
-                                            <li class="menu-item"><a href="blog-small-images.html">Small Images</a></li>
-                                        </ul>
-                                    </li>
-                                    <!-- / menu item -->
-                                    <!-- menu item -->
+
                                     <li class="menu-item right bees-end">
                                         <a href="contact-us.html">
                                             <div class="bees bees-end"><span></span>
@@ -238,18 +181,14 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <!-- / menu item -->
                                 </ul>
                             </nav>
-                        </div>
-                        <!-- / menu -->
+                        </div> <!-- kelar Menu -->
                     </div>
                 </div>
-            </header>
-            <!-- #masthead -->
-        </div>
-        <!-- / header container -->
-        <!-- breadcrumbs -->
+            </header> <!-- kelar ID Masthead/Header utama -->
+        </div> <!-- kelar Header container -->
+
         <section class='page_title wave'>
             <div class='container'>
                 <div class='title'>
@@ -277,11 +216,10 @@
                                 <input type="submit" class="search-submit" value="Search" />
                                 <input type='hidden' name='lang' value='en' />
                             </form>
-                        </div>
-                        <!-- / widget search -->
-                        <!-- widget menu -->
+                        </div> <!-- kelar Widget Search -->
+                        
                         <div class="cws-widget">
-                            <div class="widget-title">Sidebar Menu</div>
+                            <div class="widget-title">Recent Questions</div>
                             <div class="menu-main-menu-container">
                                 <ul id="menu-main-menu-1" class="menu">
                                     <li class="menu-item menu-item-has-children"><a href="index.html">Home</a>
@@ -426,14 +364,14 @@
                         <!-- / accordion -->
                     </main>
                     <!-- / main content -->
-                </div>
-                <!-- pattern container / -->
+                </div> <!-- kelar Pattern container / -->
+
                 <div class='right-pattern pattern pattern-2'></div>
                 <!-- footer image container / -->
                 <div class="footer_image">
                 </div>
             </div>
-            <!-- svg filter -->
+            
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" style='display:none;'>
                 <defs>
                     <filter id="goo">
@@ -446,211 +384,111 @@
             <!-- / svg filter -->
         </div>
         <!-- #main -->
-        <!-- footer -->
         <div class='footer_wrapper_copyright'>
-            <!-- canvas -->
             <div class='half_sin_wrapper'>
-                <canvas class='half_sin' data-bg-color='23,108,129' data-line-color='23,108,129'></canvas>
+                <canvas class='half_sin' data-bg-color='#ff6633' data-line-color='23,108,129'></canvas>
             </div>
-            <!-- / canvas -->
+
             <footer class='page_footer'>
                 <div class='container'>
                     <div class='footer_container'>
-                        <!-- widget post -->
                         <div class="cws-widget">
-                            <div class="widget-title">Our News</div>
-                            <div class='widget_carousel'>
-                                <div class='item'>
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <a href='blog-post.html' class='post_thumb_wrapp pic'><img class='post_thumb' src='http://placehold.it/58x58' data-at2x='http://placehold.it/58x58' alt />
-                                                <div class='hover-effect'></div>
-                                                <div class='links'><span class='fa fa-link'></span></div>
-                                            </a>
-                                            <div class='post_title'><a href='blog-post.html'>Morbi iaculis</a></div>
-                                            <div class='post_content'>Quisque in nulla ut metus <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>March 24, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <a href='blog-post.html' class='post_thumb_wrapp pic'><img class='post_thumb' src='http://placehold.it/58x58' data-at2x='http://placehold.it/58x58' alt />
-                                                <div class='hover-effect'></div>
-                                                <div class='links'><span class='fa fa-link'></span></div>
-                                            </a>
-                                            <div class='post_title'><a href='blog-post.html'>Praesent sagittis</a></div>
-                                            <div class='post_content'>Maecenas vel elit at dui <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>March 24, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <a href='blog-post.html' class='post_thumb_wrapp pic'><img class='post_thumb' src='http://placehold.it/58x58' data-at2x='http://placehold.it/58x58' alt />
-                                                <div class='hover-effect'></div>
-                                                <div class='links'><span class='fa fa-link'></span></div>
-                                            </a>
-                                            <div class='post_title'><a href='blog-post.html'>Morbi iaculis euismod</a></div>
-                                            <div class='post_content'>Aenean molestie faucibus <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>March 22, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                </div>
-                                <div class='item'>
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='blog-post.html'>Gallery post</a></div>
-                                            <div class='post_content'>Quisque in nulla ut metus <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>March 20, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <a href='blog-post.html' class='post_thumb_wrapp pic'><img class='post_thumb' src='http://placehold.it/58x58' data-at2x='http://placehold.it/58x58' alt />
-                                                <div class='hover-effect'></div>
-                                                <div class='links'><span class='fa fa-link'></span></div>
-                                            </a>
-                                            <div class='post_title'><a href='blog-post.html'>Ut wisi enim</a></div>
-                                            <div class='post_content'>Aenean molestie faucibus <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>February 28, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                    <!-- post item -->
-                                    <div class='post_item'>
-                                        <div class='post_preview clearfix'>
-                                            <a href='blog-post.html' class='post_thumb_wrapp pic'><img class='post_thumb' src='http://placehold.it/58x58' data-at2x='http://placehold.it/58x58' alt />
-                                                <div class='hover-effect'></div>
-                                                <div class='links'><span class='fa fa-link'></span></div>
-                                            </a>
-                                            <div class='post_title'><a href='blog-post.html'>Image post</a></div>
-                                            <div class='post_content'>Quisque in nulla ut metus <a href='blog-post.html'>...</a></div>
-                                            <div class='post_date'>February 25, 2015</div>
-                                        </div>
-                                    </div>
-                                    <!-- / post item -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / widget posts -->
-                        <!-- twitter -->
+                            <div class="widget-title">Discounted Products</div>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a href="shop-single-product.html" title="Woo Single #2">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="cd_6_angle" /> <span class="product-title">Kunci Duplikat</span>
+                                    </a>
+                                    <del><span class="amount">Rp 3.000</span></del>
+                                    <ins><span class="amount">Rp 2.000</span></ins>
+                                </li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Premium Quality">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="poster_3_up" /> <span class="product-title">Bola Bekel</span>
+                                    </a>
+                                    <del><span class="amount">Rp 15.000</span></del>
+                                    <ins><span class="amount">Rp 12.000</span></ins>
+                                </li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Flying Ninja">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="poster_2_up" /> <span class="product-title">Boots</span>
+                                    </a>
+                                    <del><span class="amount">Rp 15.000</span></del>
+                                    <ins><span class="amount">Rp 12.000</span></ins>
+                                </li>
+                            </ul>
+                        </div> <!-- kelar Widget -->
+
+                        <div class="cws-widget">
+                            <div class="widget-title">Top Rated</div>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a href="shop-single-product.html" title="Woo Album #4">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="cd_5_angle" />
+                                        <span class="product-title">Temulawak</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div> <span class="amount">Rp 9.000</span>
+                                </li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Happy Ninja">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="T_7_front" />
+                                        <span class="product-title">Anggur Swedia</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div> <span class="amount">Rp 18.000</span>
+                                </li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Ninja Silhouette">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="T_5_front" />
+                                        <span class="product-title">Biskuatin</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div><span class="amount">Rp 20.000</span>
+                                </li>
+                            </ul>
+                        </div> <!-- kelar widget Top Rated -->
+
+                        <div class="cws-widget">
+                            <div class="widget-title">Special Offers</div>
+                            <ul class="product_list_widget">
+                                <li>
+                                    <a href="shop-single-product.html" title="Woo Album #4">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="cd_5_angle" /> <span class="product-title">Circle</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5.000 out of 5">
+                                        <span style="width:100%">
+                                            <strong class="rating">5.000</strong>
+                                             out of 5
+                                        </span>
+                                    </div> <span class="amount">Rp 9.000</span></li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Happy Ninja">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="T_7_front" /> <span class="product-title">Sofa</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5.000 out of 5"><span style="width:100%"><strong class="rating">5.000</strong> out of 5</span></div> <span class="amount">Rp 18.000</span></li>
+                                <li>
+                                    <a href="shop-single-product.html" title="Ninja Silhouette">
+                                        <img src="http://placehold.it/58x58" class="attachment-shop_thumbnail " alt="T_5_front" /> <span class="product-title">Motorbike</span>
+                                    </a>
+                                    <div class="star-rating" title="Rated 5.000 out of 5"><span style="width:100%"><strong class="rating">5.000</strong> out of 5</span></div> <span class="amount">Rp 20.000</span></li>
+                            </ul>
+                        </div> <!-- kelar widget Top Rated -->
+
                         <div class="cws-widget">
                             <div class="widget-title">Twitter Feed</div>
                             <div class='cws_tweets tweets_carousel paginated'>
                                 <div class='twitter-carousel cws_tweet'></div>
                             </div>
-                        </div>
-                        <!-- / twitter -->
-                        <!-- widget gallery -->
-                        <div class="cws-widget">
-                            <div class="widget-title">Gallery</div>
-                            <div class='cws_textwidget_content'>
-                                <div class='text'>
-                                    <div id='gallery-1' class='gallery galleryid-1996 gallery-columns-3 gallery-size-thumbnail'>
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="blog_3_col_2" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="blog_3_col_1" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="pic_double_sidebar_1" />
-                                            </div>
-                                        </div>
-                                        <br style="clear: both" />
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="pic_typorgaphy" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="portfolio_3" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="portfolio_6" />
-                                            </div>
-                                        </div>
-                                        <br style="clear: both" />
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="portfolio_4" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon landscape'>
-                                                <img src="http://placehold.it/150x150" class="attachment-thumbnail" alt="portfolio_7" />
-                                            </div>
-                                        </div>
-                                        <!-- / galery item -->
-                                        <!-- galery item -->
-                                        <div class='gallery-item'>
-                                            <div class='gallery-icon'>
-                                                <img width="1" height="1" src="http://placehold.it/150x150" class="attachment-thumbnail" alt="blog_3_col_3" />
-                                            </div>
-                                        </div>
-                                        <!-- / gallery item -->
-                                        <br style="clear: both" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / widget gallery -->
-                        <!-- contact form -->
-                        <div class="cws-widget">
-                            <div class="widget-title">Shoot a Message</div>
-                            <div class="textwidget">
-                                <div role="form" class="cf" id="cf-f1705-o1" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response"></div>
-                                    <form action="php/contacts-process.php" method="post" class="cf-form contact-form" novalidate="novalidate">
-                                        <p><span class="cf-form-control-wrap your-name"><input type="text" name="name" value="" size="60" class="" aria-required="true" aria-invalid="false" placeholder="Name" /></span></p>
-                                        <p><span class="cf-form-control-wrap your-email"><input type="email" name="email" value="" size="60" class="" aria-required="true" aria-invalid="false" placeholder="E-mail" /></span></p>
-                                        <p><span class="cf-form-control-wrap your-message"><textarea name="message" cols="39" rows="6" class="" aria-invalid="false" placeholder="Message"></textarea></span></p>
-                                        <p>
-                                            <input type="submit" value="Send" class="cf-form-control cf-submit" />
-                                        </p>
-                                    </form>
-                                    <div class="email_server_responce"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- / contact form -->
+                        </div> <!-- kelar widget Twitter Feed -->
                     </div>
                 </div>
             </footer>
-            <!-- copyright -->
+
             <div class='copyrights_area'>
                 <div class='half_sin_wrapper'>
-                    <canvas class='footer_half_sin' data-bg-color='14,64,77' data-line-color='14,64,77'></canvas>
+                    <canvas class='footer_half_sin' data-bg-color='#ffffff' data-line-color='14,64,77'></canvas>
                 </div>
                 <div class='container'>
                     <div class='copyrights_container'>
-                        <div class='copyrights'>Copyrights ©2016: Kiddy - Children HTML Template</div>
+                        <div class='copyrights'>Carefully curated by <a href="http://www.codewell.id" target="_blank">these guys.</a> &copy; 2017 </div>
                         <div class='copyrights_panel'>
                             <div class='copyrights_panel_wrapper'>
                                 <div class="lang_bar">
@@ -677,25 +515,28 @@
                     </div>
                 </div>
             </div>
-            <!-- / copyright -->
-        </div>
-        <!-- / footer -->
+            <!-- kelar copyright -->
+        </div> <!-- kelar Footer-Wrapper-Copyright -->
     </div>
-    <!-- #page -->
+    
     <div class='scroll_top animated'></div>
     <div id="lang_sel_footer">
         <ul>
             <li>
-                <a href="page-faq.html" class="lang_sel_sel"><img src="img/en.png" alt="English" class="iclflag" title="English" />&nbsp;English</a>
+                <a href="store.html" class="lang_sel_sel"><img src="img/en.png" alt="English" class="iclflag" title="English" />&nbsp;English</a>
             </li>
             <li>
-                <a href="#"><img src="img/fr.png" alt="Français" class="iclflag" title="Français" />&nbsp;Français</a>
+                <a href="#"><img src="img/fr.png" alt="Français" class="iclflag" title="Bahasa" />&nbsp;Bahasa</a>
             </li>
             <li>
-                <a href="#"><img src="img/de.png" alt="Deutsch" class="iclflag" title="Deutsch" />&nbsp;Deutsch</a>
+                <a href="#"><img src="img/de.png" alt="Deutsch" class="iclflag" title="Sunda" />&nbsp;Sunda</a>
             </li>
         </ul>
     </div>
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery-ui.min.js'></script>
+    <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='js/retina_1.3.0.js'></script>
     <script type='text/javascript' src='js/modernizr.js'></script>
     <script type='text/javascript' src='js/owl.carousel.js'></script>
