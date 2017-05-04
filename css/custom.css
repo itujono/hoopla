@@ -443,3 +443,19 @@ form.checkout h3 {
     font-size: 54px;
     line-height: 1;
 }
+
+
+
+
+
+
+
+ /*nah loh udah bagian Trivia Post aja nih */
+
+ .post_item .post_content, .post_item .post_title {
+    font-size: .85em
+ }
+
+ .post_item .post_title {
+    font-weight: 600;
+ }
