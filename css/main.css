@@ -190,7 +190,8 @@ input[type="submit"],
 .news .media_part.only_link a,
 .mini-cart .button,
 .not_found,
-.milestone_desc {
+.milestone_desc,
+.banner-wrapper {
     font-family: Patrick Hand !important
 }
 
@@ -353,7 +354,9 @@ ul li:before,
 .mini-cart .total>*,
 input[type=checkbox]:checked:before,
 .banner_404,
+.banner-order,
 .msg_404 span,
+.msg-completed span,
 .cws_tweet:before,
 .cws_fa_wrapper .cws_fa.alt,
 .site_top_panel #top_panel_links .share-toggle-button,

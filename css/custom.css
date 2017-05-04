@@ -379,3 +379,57 @@ form.checkout h3 {
 #faq .page_content main {
     margin-bottom: 60px;
 }
+
+
+
+
+
+/*sippp dah ke Product ajah! */
+
+#product .page_content main {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/* eh serius nih udah page Completed Order? */
+
+#completed .page_content {
+    padding: 15px 0;
+}
+
+.banner-wrapper {
+    max-width: 525px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.banner-order {
+    position: relative;
+    font-size: 300px;
+    line-height: 260px;
+    z-index: 1;
+}
+
+    .banner-order img {
+        display: block;
+        position: relative;
+        z-index: 2;
+        max-width: 190px;
+        margin: 0 auto;
+    }
+
+.msg-completed {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.msg-completed span {
+    font-size: 54px;
+    line-height: 1;
+}
