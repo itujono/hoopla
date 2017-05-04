@@ -459,3 +459,32 @@ form.checkout h3 {
  .post_item .post_title {
     font-weight: 600;
  }
+
+
+
+
+
+
+
+
+/* whoppp betulan dah di Package Discounts yah! */
+
+#packdisc .ce_title {
+    font-size: 50px;
+}
+
+#packdisc .cws_portfolio_header {
+    margin-bottom: 30px;
+}
+
+.desc_part .categories a {
+    text-decoration: underline;
+}
+
+#packdisc .page_content main {
+    margin-bottom: 60px;
+}
+
+#packdisc .page_content>main .grid_row {
+    /*width: 990px;*/
+}
